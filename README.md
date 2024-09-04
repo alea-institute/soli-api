@@ -1,5 +1,9 @@
 # SOLI API
 
+![SOLI Logo](https://openlegalstandard.org/assets/images/soli-intro-logo.png)
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 This project provides a public API for the [SOLI](https://openlegalstandard.org) (Standard for Open Legal Information) ontology.
 
 **If you just want to access the API, you don't need to run this project yourself.  The API is freely available to the public,
@@ -79,10 +83,18 @@ Once the API is running, you can access the Swagger UI documentation at `https:/
 
 The API can be configured using the `config.json` file. Modify this file to change settings such as the SOLI source, API metadata, and binding options.
 
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
-
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+The SOLI Python library is released under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Support
+
+If you encounter any issues or have questions about using the SOLI API, please [open an issue](https://github.com/alea-institute/soli-api/issues) on GitHub.
+
+## Learn More
+
+To learn more about SOLI, its development, and how you can get involved, visit the [SOLI website](https://openlegalstandard.org/) or join the [SOLI community forum](https://discourse.openlegalstandard.org/).
