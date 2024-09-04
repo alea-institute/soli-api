@@ -1,0 +1,22 @@
+{
+  "soli": {
+    "source": "github",
+    "repository": "alea-institute/soli",
+    "branch": "1.0.0",
+    "path": "SOLI.owl"
+  },
+  "api": {
+    "title": "SOLI API",
+    "description": "Public API for the SOLI ontology",
+    "version": "0.1.0",
+    "terms_of_service": "https://openlegalstandard.org/",
+    "contact": {
+      "name": "SOLI",
+      "url": "https://openlegalstandard.org",
+      "email": "hello@aleainstitute.ai"
+    },
+    "bind_ip": "0.0.0.0",
+    "bind_port": 8000,
+    "cors_origins": ["*"]
+  }
+}
