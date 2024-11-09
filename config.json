@@ -5,6 +5,10 @@
     "branch": "1.0.0",
     "path": "SOLI.owl"
   },
+  "llm": {
+    "type": "openai",
+    "model": "gpt-4o"
+  },
   "api": {
     "title": "SOLI API",
     "description": "Public API for the SOLI ontology",
@@ -17,6 +21,7 @@
     },
     "bind_ip": "0.0.0.0",
     "bind_port": 8000,
-    "cors_origins": ["*"]
+    "cors_origins": ["*"],
+    "log_level": "info"
   }
 }

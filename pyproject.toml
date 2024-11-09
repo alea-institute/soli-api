@@ -11,7 +11,7 @@ include = ["soli_api"]
 
 [tool.poetry.dependencies]
 python = ">=3.10,<4.0.0"
-soli-python = {version = "^0.1.4", extras=["search"]}
+soli-python = {version = "^0.1.5", extras=["search"]}
 fastapi = "^0.112.2"
 uvicorn = "^0.30.6"
 
